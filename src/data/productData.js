@@ -16,7 +16,7 @@ const product = [
     reviews: [],
     price: 15000,
     countInStock: 0,
-    name: "Samsung Galaxy M51 (Electric Blue, 6GB RAM, 128GB Storage)",
+    name: "Samsung Galaxy M51 ",
     category: "mobiles",
     image:
       "https://images.samsung.com/is/image/samsung/in-galaxy-m51-m515fz-8gb-sm-m515fzbeins--304622793?$684_547_PNG$",
@@ -40,7 +40,7 @@ const product = [
     reviews: [],
     price: 4800,
     countInStock: 5,
-    name: "Pure Cotton Men’s Checked Shirt By NoLogo",
+    name: "Pure Cotton Men",
     category: "fashion",
     image:
       "https://static.cilory.com/450690-thickbox_default/nologo-navy-casual-shirt.jpg",
@@ -52,7 +52,7 @@ const product = [
     reviews: [],
     price: 800,
     countInStock: 7,
-    name: "Logitech M170 Wireless Mouse, Black",
+    name: "Logitech M170 Wireless ",
     category: "electronics",
     image:
       "https://www.reliancedigital.in/medias/Logitech-WIRELESS-MOUSE-M170-491276865-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDI0NTd8aW1hZ2UvanBlZ3xpbWFnZXMvaGE5L2hiNi85MjAwNjI5NTc5ODA2LmpwZ3xiNjA3ZTI3MDJjYzBmZWEwY2IzNzY0MTAyZTU1MjM3ZTE5ZTc3MzhlNTZhN2ZkOTFjMmNhNmY0MDVmY2FhNTU2",
@@ -64,7 +64,7 @@ const product = [
     reviews: [],
     price: 56000,
     countInStock: 6,
-    name: "Apple iPhone XR 128 GB, Blue (Includes Earpods and Adapter)",
+    name: "Apple iPhone XR ",
     category: "mobiles",
     image:
       "https://www.reliancedigital.in/medias/Apple-iPhone-XR-128GB-Blue-491488452-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4NzY3NnxpbWFnZS9qcGVnfGltYWdlcy9oODMvaGIwLzkwNTE3MzU1NTYxMjYuanBnfDU4ZTdiOTljNWNhMjA0MDgyZjEyYzkxYzZkZmIzMGE2MTQ1MzVlNDAzOTc5ZjgwMmYyODNhYjhjNzM5ODg5ZDA",
