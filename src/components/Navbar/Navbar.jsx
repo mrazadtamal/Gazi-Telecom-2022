@@ -23,7 +23,7 @@ const NavBar = () => {
             <Nav.Link className="text-light ">
               <span>
                 <RiShoppingCart2Line
-                  style={{ width: "30px", height: "25px" }}
+                  style={{ width: "30px", height: "25px", marginRight: "20px" }}
                 />
               </span>
             </Nav.Link>
