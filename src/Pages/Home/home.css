@@ -3,15 +3,6 @@
   --curve: 40;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  background-color: #fef8f8;
-}
-
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -24,15 +15,16 @@ body {
 .card {
   position: relative;
   display: block;
-  height: 100%;
-  border-radius: calc(var(--curve) * 1px);
+  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  background-color: aquamarine;
+  height: 400px;
 }
 
 .card__image {
   width: 100%;
-  height: auto;
+  height: 350px;
 }
 
 .card__overlay {
@@ -41,7 +33,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1;
-  border-radius: calc(var(--curve) * 1px);
+  border-radius: 10px;
   background-color: var(--surface-color);
   transform: translateY(100%);
   transition: 0.2s ease-in-out;
@@ -57,7 +49,7 @@ body {
   align-items: center;
   gap: 2em;
   padding: 2em;
-  border-radius: calc(var(--curve) * 1px) 0 0 0;
+  border-radius: 10px;
   background-color: var(--surface-color);
   transform: translateY(-100%);
   transition: 0.2s ease-in-out;
@@ -111,7 +103,6 @@ body {
   padding: 0 2em 2em;
   margin: 0;
   color: #d7bdca;
-  font-family: "MockFlowFont";
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
