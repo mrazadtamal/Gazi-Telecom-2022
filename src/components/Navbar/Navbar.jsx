@@ -1,9 +1,10 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { RiShoppingCart2Line } from "react-icons/ri";
 
 const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
       <Container>
         <Navbar.Brand className="text-light" href="#home">
           Gazi Telecom
@@ -19,8 +20,12 @@ const NavBar = () => {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link className="text-light" href="#deets">
-              Card
+            <Nav.Link className="text-light ">
+              <span>
+                <RiShoppingCart2Line
+                  style={{ width: "30px", height: "25px" }}
+                />
+              </span>
             </Nav.Link>
             <NavDropdown
               className="text-light"
