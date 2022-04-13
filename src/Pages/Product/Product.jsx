@@ -1,11 +1,12 @@
 import React from "react";
 import "./Product.css";
+import { Link } from "react-router-dom";
 
 const Product = ({ item }) => {
   return (
     <>
       <li>
-        <a href="/" className="card">
+        <Link to={`/product/${item.id}`} className="card">
           <img src={item.image} className="card__image" alt="" />
           <div className="card__overlay">
             <div className="card__header">
@@ -17,7 +18,7 @@ const Product = ({ item }) => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
           </div>
-        </a>
+        </Link>
       </li>
     </>
   );
