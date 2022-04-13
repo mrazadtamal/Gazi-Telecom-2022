@@ -1,4 +1,5 @@
 import React from "react";
+import "./Product.css";
 
 const Product = ({ item }) => {
   return (
@@ -13,8 +14,7 @@ const Product = ({ item }) => {
               </div>
             </div>
             <p className="card__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
           </div>
         </a>
