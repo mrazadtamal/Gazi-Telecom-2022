@@ -1,6 +1,8 @@
 import React from "react";
 import "./Product.css";
 import { Link } from "react-router-dom";
+import Rating from "react-rating";
+import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 
 const Product = ({ item }) => {
   return (
@@ -14,9 +16,16 @@ const Product = ({ item }) => {
                 <h3 className="card__title">{item.name}</h3>
               </div>
             </div>
-            <p className="card__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit
-            </p>
+
+            <Rating
+              style={{ fontSize: "20px", marginLeft: "30px" }}
+              className=" text-warning  my-1"
+              initialRating={item?.rating}
+              emptySymbol={<AiOutlineStar />}
+              fullSymbol={<AiFillStar />}
+              readonly
+            />
+            <p className="card__description">Price : {item?.price}</p>
           </div>
         </Link>
       </li>

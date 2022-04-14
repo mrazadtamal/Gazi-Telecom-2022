@@ -1,7 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import products from "../../data/productData";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
+import Rating from "react-rating";
+import { AiOutlineStar, AiFillStar } from "react-icons/ai";
+
 const ProductDescription = () => {
   const { id } = useParams();
 
@@ -12,7 +15,7 @@ const ProductDescription = () => {
     <Container>
       <Row className=" d-flex">
         <div>
-          <div className="   ">
+          <div className=" p-3  ">
             <h1> Product Name : {product?.name}</h1>
             <h1> Product Price : {product?.price}</h1>
             <img className=" product-Img m-2 " src={product?.image} alt="" />
@@ -20,8 +23,17 @@ const ProductDescription = () => {
           </div>
         </div>
 
-        <div>
-          <div className="  ">
+        <div className=" ">
+          <div className="p-3">
+            <Rating
+              style={{ fontSize: "20px" }}
+              className=" text-warning my-3"
+              initialRating={product?.rating}
+              emptySymbol={<AiOutlineStar />}
+              fullSymbol={<AiFillStar />}
+              readonly
+            />
+
             <h1>Quantity </h1>
             <select>
               {[...Array(product?.countInStock).keys()].map((x, i) => {
@@ -29,9 +41,9 @@ const ProductDescription = () => {
               })}
             </select>
           </div>
-          <hr />
-          <div>
-            <Button className=" mt-3" variant="success">
+          <hr className="" />
+          <div className=" p-3">
+            <Button className="  mt-3" variant="success">
               Add To Cart
             </Button>
           </div>
