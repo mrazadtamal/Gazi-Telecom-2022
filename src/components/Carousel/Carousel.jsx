@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import "./carousel.css";
+import "./Carousel.css";
 
 // import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from "swiper";
@@ -37,55 +37,55 @@ export default function Carousel() {
       >
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176636/travel/pexels-petr-ganaj-4129949_1_mtpzf2.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926723/v-a-tao-OxvlDO8RwKg-unsplash_1_liokr1.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176196/travel/pexels-rhiannon-stone-572740_1_t37bvr.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926723/thai-nguyen-IegLpS8Eay8-unsplash_1_d7ps6u.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176636/travel/pexels-robin-rodriguez-4652070_1_k4gpyt.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926724/zana-latif-5uJMG9fUAO0-unsplash_1_zsfeao.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643177037/travel/pexels-simon-berger-698275_1_sac0pv.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926722/zana-latif-6YmlgOMOQj8-unsplash_1_nz5y5z.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176639/travel/pexels-iva-prime-2028177_1_rzwh5c.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1638899149/pexels-ioannis-ritos-1260239_1_qw5iul.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176638/travel/pexels-tural-sadigli-1212060_1_k0vxcv.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926722/sabawoon-rahman-CCeq9jvuKt0-unsplash_1_lwjtfe.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176634/travel/pexels-antonio-filigno-2976684_1_tajjvq.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649927242/patrik-michalicka-cv4bk-aedJE-unsplash_1_erhwjl.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176636/travel/pexels-chris-janda-62600_1_h4eows.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926722/zana-latif-KI1OHb2QODA-unsplash_1_tgp87r.jpg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/abidazad/image/upload/v1643176636/travel/pexels-donatello-trisolino-10415591_rl4dqp.jpg"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649926721/siegrist-nikolai-fzvn0JAVDto-unsplash_1_xahslk.jpg"
             alt=""
           />
         </SwiperSlide>
